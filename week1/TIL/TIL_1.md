@@ -18,7 +18,7 @@ nextInt 이후 nextLine 한 번 더 써줘야 버퍼 문제 해결됨
 ---
 
 ### 3. 결과 이미지
-![결과 이미지](/Users/y-hee/IdeaProjects/week1/week1/TIL/pbl_1.png)
+![결과 이미지](pbl_1.png)
 
 ---
 
