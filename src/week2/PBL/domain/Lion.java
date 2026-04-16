@@ -1,4 +1,4 @@
-package domain;
+package week2.PBL.domain;
 
 public class Lion {
 

@@ -1,7 +1,7 @@
 ### IntelliJ IDEA ###
 out/
-!week2/PBL/main/**/out/
-!week2/PBL/test/**/out/
+!PBL/main/**/out/
+!PBL/test/**/out/
 .kotlin
 
 ### Eclipse ###
@@ -13,8 +13,8 @@ out/
 .springBeans
 .sts4-cache
 bin/
-!week2/PBL/main/**/bin/
-!week2/PBL/test/**/bin/
+!PBL/main/**/bin/
+!PBL/test/**/bin/
 
 ### NetBeans ###
 /nbproject/private/

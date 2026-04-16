@@ -1,6 +1,7 @@
-package step1;
+package week2.PBL.step1;
 
-import domain.Lion;
+import week2.PBL.domain.Lion;
+
 import java.util.Scanner;
 
 public class MainStep1 {
@@ -11,13 +12,13 @@ public class MainStep1 {
         System.out.println("🦁 아기사자 이름을 입력해주세요.");
         String name = sc.nextLine();
 
-        System.out.println("🦁 전공을 입력해주세요.");
+        System.out.println("\uD83C\uDF93 전공을 입력해주세요.");
         String major = sc.nextLine();
 
         System.out.println("📌 기수를 입력해주세요.");
         int generation = sc.nextInt();
 
-        System.out.println("📍 입력값 검증을 진행합니다.");
+        System.out.println("📌 입력값 검증을 진행합니다.");
 
         // 🔥 검증
         if (name.isEmpty()) {

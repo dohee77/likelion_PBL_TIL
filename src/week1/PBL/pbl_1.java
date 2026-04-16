@@ -1,4 +1,4 @@
-package PBL;
+package week1.PBL;
 
 import java.util.Scanner;
 

@@ -1,6 +1,6 @@
-package other;
+package week2.PBL.other;
 
-import domain.Lion;
+import week2.PBL.domain.Lion;
 
 public class OtherPackageTest {
     public static void main(String[] args) {
