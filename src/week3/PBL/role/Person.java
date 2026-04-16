@@ -15,18 +15,14 @@ public abstract class Person {
         this.part = part;
     }
 
-    // 🔥 정책 반환 (다형성 핵심)
     protected abstract SubmitPolicy getPolicy();
 
-    // 🔥 제출 가능 여부 판단 (위임)
     public boolean canSubmit() {
         return getPolicy().canSubmit();
     }
 
-    // 🔥 정보 출력 (추상)
     public abstract String getInfo();
 
-    // getter (private 필드 접근용)
     public String getName() { return name; }
     public String getMajor() { return major; }
     public int getGeneration() { return generation; }
