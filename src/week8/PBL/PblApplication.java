@@ -1,14 +1,9 @@
-package week6.PBL;
+package week8.PBL;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication(
-        scanBasePackages = {
-                "week6.PBL",
-                "week7.PBL"
-        }
-)
+@SpringBootApplication
 public class PblApplication {
 
     public static void main(String[] args) {

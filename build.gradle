@@ -16,7 +16,20 @@ repositories {
 }
 
 dependencies {
+
+    // Spring Web
     implementation 'org.springframework.boot:spring-boot-starter-web'
+
+    // JPA (이거 없으면 지금 에러 그대로 남음)
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+
+    // MySQL
+    runtimeOnly 'com.mysql:mysql-connector-j'
+
+    // Lombok (쓴 경우만)
+    compileOnly 'org.projectlombok:lombok'
+    annotationProcessor 'org.projectlombok:lombok'
+
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
