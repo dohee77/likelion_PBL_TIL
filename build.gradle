@@ -42,7 +42,7 @@ sourceSets {
 }
 
 springBoot {
-    mainClass = 'week6.PblApplication'
+    mainClass = 'week8_9_10.PblApplication'
 }
 
 test {
